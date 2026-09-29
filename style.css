@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+    color: #060c31;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    width: 1440px;
+    min-height: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+    height: 130px;
+    padding-top: 60px;
+    padding-left: 87px;
+    padding-right: 87px;
+}
+
+.logo {
+    float: left;
+    display: block;
+
+    text-decoration: none;
+    
+    font-size: 34px;
+    line-height: 64px;
+    color: #060c31;
+    font-weight: 400;
+    font-family: "Crete Round";
+}
+
+.navigation {
+    float: right;
+    height: 50px;
+    padding-top: 7px;
+}
+
+.navigation a {
+    display: inline-block;
+    vertical-align: middle;
+    
+    margin-left: 34px;
+    
+    color: #060c31;
+    text-decoration: none;
+    
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    
+}
+
+.navigation a:first-child {
+    margin-left: 0;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+}
+
+.navigation .account_button {
+    height: 36px;
+    padding: 8px 25px;
+    
+    margin-left: 32px;
+    
+    border: 2px solid #f6c5c5;
+    border-radius: 20px;
+    
+    color: #060c31;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    clear: both;
+    height: 620px;
+    position: relative;
+}
+
+/* Левая часть */
+
+.hero-text {
+    float: left;
+    
+    width: 450px;
+    margin-left: 140px;
+    margin-top: 55px;
+}
+
+.hero-text h1 {
+    width: 450px;
+    
+    margin: 0;
+    padding: 0;
+    
+    color: #060c31;
+    
+    font-family: "Crete Round";
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 64px;
+
+}
+
+.hero-text p {
+    width: 390px;
+    
+    margin: 28px 0 0 0;
+    padding: 0;
+    
+    color: #060c31;
+    
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* ================= BUTTONS ================= */
+
+.hero-buttons {
+    margin-top: 28px;
+}
+
+.button {
+    display: inline-block;
+    
+    height: 50px;
+    padding: 0 28px;
+    
+    border-radius: 25px;
+    
+    text-decoration: none;
+    
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.button-blue {
+    margin-right: 14px;
+    
+    background: #233fe2;
+    color: #ffffff;
+}
+
+.button-white {
+    padding-left: 27px;
+    padding-right: 27px;
+    
+    border: 2px solid #f6c5c5;
+    
+    color: #060c31;
+    background: #ffffff;
+}
+
+/* ================= IMAGE ================= */
+
+.hero-image {
+    float: right;
+    
+    width: 717px;
+    height: 569px;
+    
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.hero-image img {
+    display: block;
+    
+    width: 717px;
+    height: 569px;
+    
+    object-fit: contain;
+}
+
+/* ================= PARTNERS ================= */
+
+.partners {
+    clear: both;
+    
+    width: 800px;
+    height: 40px;
+    
+    margin-left: 550px;
+    margin-top: 95px;
+    
+    white-space: nowrap;
+}
+
+.partners img {
+    display: block;
+    float: left;
+    
+    object-fit: contain;
+    
+    filter: grayscale(100%);
+    opacity: 0.45;
+}
+
+/* Altmetric */
+
+.partners img:nth-child(1) {
+    width: 87px;
+    height: 30px;
+    
+    margin-right: 90px;
+}
+
+/* Coca-Cola */
+
+.partners img:nth-child(2) {
+    width: 64px;
+    height: 21px;
+    
+    margin-top: 5px;
+    margin-right: 90px;
+}
+
+/* UNICEF */
+
+.partners img:nth-child(3) {
+    width: 83px;
+    height: 21px;
+    
+    margin-top: 5px;
+    margin-right: 90px;
+}
+
+/* GASIN */
+
+.partners img:nth-child(4) {
+    width: 77px;
+    height: 18px;
+    
+    margin-top: 6px;
+    margin-right: 90px;
+}
+
+/* GitHub */
+
+.partners img:nth-child(5) {
+    width: 77px;
+    height: 20px;
+    
+    margin-top: 5px;
+}
